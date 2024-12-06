@@ -14,7 +14,7 @@ return static function (RectorConfig $rectorConfig): void {
     ]);
 
     $rectorConfig->importNames(true);
-    $rectorConfig->importShortClasses(false)
+    $rectorConfig->importShortClasses(false);
 
     $rectorConfig->sets([SetList::PHP_81]);
 
